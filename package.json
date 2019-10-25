@@ -1,9 +1,9 @@
 {
-  "name": "vuepress-homepage",
+  "name": "ATNMICHABITS",
   "version": "0.0.1",
-  "description": "Generate your homepage with VuePress",
-  "author": "Fing <mtobeiyf@163.com>",
-  "repository": "https://github.com/mtobeiyf/vuepress-homepage.git",
+  "description":"아주 작은 습관의힘",
+  "author": "choijinwon <abyys83@gmail.com>",
+  "repository": "https://github.com/choijinwon/ah-blog.git",
   "scripts": {
     "clean": "rimraf dist/*",
     "dev": "vuepress dev docs",

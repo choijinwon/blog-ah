@@ -1,16 +1,19 @@
 module.exports = {
-  title: "Harry Potter",
+  title: "아주작은습관의힘",
   description: "The description of the site.",
   head: [["link", { rel: "icon", href: `/logo.png` }]],
-  base: "/",
-  dest: "./dist",
+  base: '/blog-ah/',
+  // dest: "./dist",
 
   themeConfig: {
+    repo: 'choijinwon/blog-ah',
+    docsRepo: 'choijinwon/blog-ah',
+    docsDir: 'docs',
     nav: [
       { text: "Home", link: "/" },
       { text: "Projects", link: "/projects/" },
       { text: "Guide", link: "/guide/" },
-      { text: "GitHub", link: "https://github.com/mtobeiyf/vuepress-homepage" }
+      { text: "GitHub", link: "https://github.com/choijinwon/" }
     ],
     sidebar: {
       '/guide/': genSidebarConfig('Guide')

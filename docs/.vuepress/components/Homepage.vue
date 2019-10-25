@@ -88,19 +88,19 @@ body
       display block
       width 100%
       height auto
-      max-width 150px
+      max-width 250px
       border-radius 500rem
   .card
     max-width: 600px
     width 100%
     position relative
-    top -75px
-    padding-top 75px
+    top -155px
+    padding-top 150px
     margin-left auto 
     margin-right auto 
     background #fff
     box-shadow 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius 0.3rem
+    border-radius 0.5rem
     text-align center 
     .bio
       padding 1em
